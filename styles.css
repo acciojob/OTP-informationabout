@@ -36,6 +36,11 @@ body {
     max-width: 300px;
     margin: 0 auto;
 }
+.code:disabled {
+    background-color: #e0e0e0;
+    color: #999;
+    cursor: not-allowed;
+}
 
 .code {
     width: 50px;
